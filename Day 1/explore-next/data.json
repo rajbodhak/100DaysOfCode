@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "name": "Aarav Sharma",
+        "age": 25,
+        "profession": "Software Engineer"
+    },
+    {
+        "id": 2,
+        "name": "Riya Verma",
+        "age": 28,
+        "profession": "Doctor"
+    },
+    {
+        "id": 3,
+        "name": "Amit Patel",
+        "age": 30,
+        "profession": "Teacher"
+    },
+    {
+        "id": 4,
+        "name": "Neha Gupta",
+        "age": 26,
+        "profession": "Graphic Designer"
+    },
+    {
+        "id": 5,
+        "name": "Vikram Joshi",
+        "age": 35,
+        "profession": "Entrepreneur"
+    },
+    {
+        "id": 6,
+        "name": "Priya Choudhary",
+        "age": 24,
+        "profession": "Data Analyst"
+    },
+    {
+        "id": 7,
+        "name": "Rohan Mehta",
+        "age": 32,
+        "profession": "Civil Engineer"
+    },
+    {
+        "id": 8,
+        "name": "Sneha Kapoor",
+        "age": 29,
+        "profession": "Digital Marketer"
+    },
+    {
+        "id": 9,
+        "name": "Anil Yadav",
+        "age": 27,
+        "profession": "Financial Analyst"
+    },
+    {
+        "id": 10,
+        "name": "Kiran Malhotra",
+        "age": 31,
+        "profession": "HR Manager"
+    },
+    {
+        "id": 11,
+        "name": "Suresh Reddy",
+        "age": 40,
+        "profession": "Architect"
+    },
+    {
+        "id": 12,
+        "name": "Meena Singh",
+        "age": 23,
+        "profession": "Software Developer"
+    },
+    {
+        "id": 13,
+        "name": "Rajesh Kumar",
+        "age": 36,
+        "profession": "Lawyer"
+    },
+    {
+        "id": 14,
+        "name": "Swati Bansal",
+        "age": 22,
+        "profession": "Content Writer"
+    },
+    {
+        "id": 15,
+        "name": "Arjun Nair",
+        "age": 29,
+        "profession": "Mechanical Engineer"
+    },
+    {
+        "id": 16,
+        "name": "Pooja Iyer",
+        "age": 26,
+        "profession": "Fashion Designer"
+    },
+    {
+        "id": 17,
+        "name": "Nitin Das",
+        "age": 34,
+        "profession": "Business Analyst"
+    },
+    {
+        "id": 18,
+        "name": "Alok Sinha",
+        "age": 27,
+        "profession": "Cybersecurity Expert"
+    },
+    {
+        "id": 19,
+        "name": "Shreya Deshmukh",
+        "age": 30,
+        "profession": "Biotechnologist"
+    },
+    {
+        "id": 20,
+        "name": "Kunal Thakur",
+        "age": 25,
+        "profession": "AI Engineer"
+    },
+    {
+        "id": 21,
+        "name": "Deepika Raj",
+        "age": 33,
+        "profession": "Psychologist"
+    },
+    {
+        "id": 22,
+        "name": "Manish Dubey",
+        "age": 28,
+        "profession": "Investment Banker"
+    },
+    {
+        "id": 23,
+        "name": "Simran Chopra",
+        "age": 26,
+        "profession": "Pharmacist"
+    },
+    {
+        "id": 24,
+        "name": "Harsh Sharma",
+        "age": 37,
+        "profession": "Automobile Engineer"
+    },
+    {
+        "id": 25,
+        "name": "Ananya Ghosh",
+        "age": 24,
+        "profession": "Journalist"
+    },
+    {
+        "id": 26,
+        "name": "Vivek Tiwari",
+        "age": 29,
+        "profession": "Software Tester"
+    },
+    {
+        "id": 27,
+        "name": "Komal Mishra",
+        "age": 30,
+        "profession": "Interior Designer"
+    },
+    {
+        "id": 28,
+        "name": "Ravi Srivastava",
+        "age": 27,
+        "profession": "Marketing Manager"
+    },
+    {
+        "id": 29,
+        "name": "Bhavna Saxena",
+        "age": 31,
+        "profession": "Social Worker"
+    },
+    {
+        "id": 30,
+        "name": "Gaurav Pandey",
+        "age": 28,
+        "profession": "Network Engineer"
+    },
+    {
+        "id": 31,
+        "name": "Pankaj Roy",
+        "age": 32,
+        "profession": "Professor"
+    },
+    {
+        "id": 32,
+        "name": "Shruti Pathak",
+        "age": 25,
+        "profession": "UX Designer"
+    },
+    {
+        "id": 33,
+        "name": "Dinesh Khatri",
+        "age": 38,
+        "profession": "Economist"
+    },
+    {
+        "id": 34,
+        "name": "Ayesha Khan",
+        "age": 27,
+        "profession": "Flight Attendant"
+    },
+    {
+        "id": 35,
+        "name": "Nikhil Agrawal",
+        "age": 26,
+        "profession": "Product Manager"
+    },
+    {
+        "id": 36,
+        "name": "Rashmi Sen",
+        "age": 29,
+        "profession": "Web Developer"
+    },
+    {
+        "id": 37,
+        "name": "Ashish Malhotra",
+        "age": 33,
+        "profession": "IT Consultant"
+    },
+    {
+        "id": 38,
+        "name": "Zoya Sheikh",
+        "age": 24,
+        "profession": "Event Planner"
+    },
+    {
+        "id": 39,
+        "name": "Suraj Bhat",
+        "age": 35,
+        "profession": "Film Director"
+    },
+    {
+        "id": 40,
+        "name": "Neeraj Singh",
+        "age": 28,
+        "profession": "Chemical Engineer"
+    },
+    {
+        "id": 41,
+        "name": "Anjali Prasad",
+        "age": 26,
+        "profession": "Veterinarian"
+    },
+    {
+        "id": 42,
+        "name": "Akash Verma",
+        "age": 31,
+        "profession": "Data Scientist"
+    },
+    {
+        "id": 43,
+        "name": "Tanya Kapoor",
+        "age": 25,
+        "profession": "Environmental Scientist"
+    },
+    {
+        "id": 44,
+        "name": "Rahul Sethi",
+        "age": 29,
+        "profession": "Astronomer"
+    },
+    {
+        "id": 45,
+        "name": "Mohit Das",
+        "age": 30,
+        "profession": "Chef"
+    },
+    {
+        "id": 46,
+        "name": "Varsha Menon",
+        "age": 27,
+        "profession": "Physiotherapist"
+    },
+    {
+        "id": 47,
+        "name": "Arvind Saxena",
+        "age": 32,
+        "profession": "Pilot"
+    },
+    {
+        "id": 48,
+        "name": "Sonia Dutta",
+        "age": 28,
+        "profession": "HR Consultant"
+    },
+    {
+        "id": 49,
+        "name": "Chetan Rawat",
+        "age": 34,
+        "profession": "Statistician"
+    },
+    {
+        "id": 50,
+        "name": "Pallavi Yadav",
+        "age": 26,
+        "profession": "Dentist"
+    }
+]

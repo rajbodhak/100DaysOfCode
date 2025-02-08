@@ -2,7 +2,7 @@
 ### Today's Progress:
 
 **Learning Rendering strategies.**
-- [ ] Task 1: Client Side Rendering (CSR).
+- [x] Task 1: Client Side Rendering (CSR).
     - How react works in Browser.
     - Using `useState`, and `useEffect` for Client Side data fetching.
   

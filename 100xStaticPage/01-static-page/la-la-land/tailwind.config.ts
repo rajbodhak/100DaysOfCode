@@ -11,7 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        lavender: "#C084FC",
       },
+      fontFamily: {
+        greatVibes: "var(--font-great-vibes)",
+        yesevaOne: "var(--font-yeseva-one)"
+      }
     },
   },
   plugins: [],

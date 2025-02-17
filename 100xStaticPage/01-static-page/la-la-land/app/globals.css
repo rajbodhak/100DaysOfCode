@@ -23,3 +23,33 @@ body {
 .text-shadow-neon {
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.6), 0 0 20px rgba(255, 215, 0, 0.5);
 }
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 font-bold text-white bg-blue-500/15 backdrop-blur-md rounded-lg transition-all duration-300;
+  }
+
+  .btn-primary:hover {
+    @apply bg-blue-600/20;
+  }
+
+  .btn-primary:active {
+    @apply bg-blue-700/30;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 font-bold text-white bg-gray-500 rounded-lg transition-all duration-300;
+  }
+
+  .btn-secondary:hover {
+    @apply bg-gray-600;
+  }
+
+  .btn-secondary:active {
+    @apply bg-gray-700;
+  }
+
+  .btn-disabled {
+    @apply px-4 py-2 font-bold text-white bg-gray-300 rounded-lg cursor-not-allowed;
+  }
+}

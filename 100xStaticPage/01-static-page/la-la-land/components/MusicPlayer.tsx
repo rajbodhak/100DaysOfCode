@@ -55,8 +55,7 @@ const MusicPlayer: React.FC = () => {
     };
 
     return (
-        <div className="absolute bottom-5 right-5 bg-trasparent border border-white p-4 rounded-lg shadow-lg flex flex-col items-center">
-            {/* Hidden Audio */}
+        <div className="bg-[#5A189A]/20 backdrop-blur-lg p-4 rounded-lg shadow-lg flex flex-col items-center">
             <audio ref={audioRef}>
                 <source src="/city-of-stars.ogg" type="audio/ogg" />
                 <source src="/city-of-stars.mp3" type="audio/mpeg" />
@@ -76,7 +75,7 @@ const MusicPlayer: React.FC = () => {
                     max="100"
                     value={progress}
                     onChange={handleSeek}
-                    className="w-40 h-1 bg-gray-300 rounded-full cursor-pointer"
+                    className="w-40 h-1 bg-gray-300 rounded-full cursor-pointer sm:w-32"
                 />
 
                 {/* Loop Button */}
@@ -93,10 +92,11 @@ const MusicPlayer: React.FC = () => {
                 step="0.05"
                 value={volume}
                 onChange={handleVolumeChange}
-                className="w-24 mt-2 cursor-pointer"
+                className="w-24 mt-2 cursor-pointer sm:w-20"
             />
         </div>
     );
 };
 
 export default MusicPlayer;
+

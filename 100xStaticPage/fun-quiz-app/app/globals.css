@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components{
+  .input-style {
+    @apply p-2 rounded-lg text-pink-200 bg-black/15 backdrop-blur-md border border-white/25 shadow-xl
+  }
+
+  .btn-primary {
+    @apply px-4 py-2 text-pink-300 bg-blue-500/10 backdrop-blur-md rounded-lg transition-all duration-300 shadow-lg border border-white/10;
+  }
+
+  .btn-primary:hover {
+    @apply bg-blue-600/15;
+  }
+
+  .btn-primary:active {
+    @apply bg-blue-700/30;
+  }
+}

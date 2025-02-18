@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "question": "Who is the greatest footballer?",
+        "options": [
+            {
+                "image": "/images/ishowspeed.webp",
+                "correct": true
+            },
+            {
+                "image": "/images/vini.webp",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Most handsome Hero?",
+        "options": [
+            {
+                "image": "/images/srk.webp",
+                "correct": false
+            },
+            {
+                "image": "/images/leo.webp",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Best T-Shirt Design?",
+        "options": [
+            {
+                "image": "/images/certifiedFreak.webp",
+                "correct": false
+            },
+            {
+                "image": "/images/taxmedaddy.webp",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Which one is darker?",
+        "options": [
+            {
+                "image": "/images/vini.webp",
+                "correct": true
+            },
+            {
+                "image": "/images/dark.webp",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "I am?",
+        "options": [
+            {
+                "image": "/images/girl.webp",
+                "correct": true
+            },
+            {
+                "image": "/images/boy.webp",
+                "correct": false
+            }
+        ]
+    }
+]

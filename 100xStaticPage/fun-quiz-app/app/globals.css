@@ -36,4 +36,9 @@ body {
   .btn-primary:active {
     @apply bg-blue-700/30;
   }
+
+  /* Quiz Component */
+  .image-border {
+    @apply bg-white/30 backdrop-blur-md p-2 rounded-xl hover:bg-white/45 cursor-pointer;
+  }
 }

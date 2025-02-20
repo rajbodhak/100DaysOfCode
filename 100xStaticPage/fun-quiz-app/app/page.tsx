@@ -18,13 +18,14 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-8 pb-20 sm:p-20 font-spaceGrotesk bg-gradient-to-br from-black/50 via-white/5 to-black/50">
-      <h1 className="text-lg font-bold">Hello Welcome to BakchoQuiz</h1>
-      <Image src={"/cute-cat.webp"}
+    <div className="flex flex-col items-center justify-center min-h-screen p-8 pb-20 sm:p-20 font-spaceGrotesk ">
+      <h1 className="text-xl font-bold mb-2">Hello Welcome to <span className="text-pink-300">BakchoQuiz</span></h1>
+      <Image
+        src="/cute-cat.webp"
         alt="Cute Cat"
         height={150}
         width={150}
-        className="rounded-xl"
+        className="rounded-lg shadow-lg"
       />
       <h1 className="my-2 font-bold text-lg">
         <span className="text-pink-300">

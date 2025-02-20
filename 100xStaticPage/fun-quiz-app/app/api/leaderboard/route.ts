@@ -4,7 +4,6 @@ import { error } from "console";
 import { NextRequest, NextResponse } from "next/server";
 
 //POST - Add a new score
-
 export async function POST(req: NextRequest) {
     try {
         await connectToDataBase();
@@ -23,6 +22,7 @@ export async function POST(req: NextRequest) {
     }
 }
 
+//GET - Get all users
 export async function GET() {
     try {
         await connectToDataBase();

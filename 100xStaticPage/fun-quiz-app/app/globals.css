@@ -50,4 +50,8 @@ body {
   .image-border {
     @apply bg-white/30 backdrop-blur-md p-2 rounded-xl hover:bg-white/45 cursor-pointer;
   }
+
+  .leaderboard-card {
+    @apply w-96 mb-2 font-spaceGrotesk backdrop-blur-md px-4 py-2 bg-gradient-to-r from-black/30 via-white/30 to-black/30 flex items-center justify-between shadow-lg rounded-lg border border-white/20 
+  }
 }

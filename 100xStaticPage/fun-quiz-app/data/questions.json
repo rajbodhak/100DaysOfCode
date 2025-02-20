@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "question": "Who is the greatest footballer?",
+        "question": "1. Who is the greatest footballer?",
         "options": [
             {
                 "image": "/images/ishowspeed.webp",
@@ -15,7 +15,7 @@
     },
     {
         "id": 2,
-        "question": "Most handsome Hero?",
+        "question": "2. Most handsome Hero?",
         "options": [
             {
                 "image": "/images/srk.webp",
@@ -29,7 +29,7 @@
     },
     {
         "id": 3,
-        "question": "Best T-Shirt Design?",
+        "question": "3. Best T-Shirt Design?",
         "options": [
             {
                 "image": "/images/certifiedFreak.webp",
@@ -43,7 +43,7 @@
     },
     {
         "id": 4,
-        "question": "Which one is darker?",
+        "question": "4. Which one is darker?",
         "options": [
             {
                 "image": "/images/vini.webp",
@@ -56,15 +56,85 @@
         ]
     },
     {
-        "id": 2,
-        "question": "I am?",
+        "id": 5,
+        "question": "5. Thala?",
         "options": [
             {
-                "image": "/images/girl.webp",
+                "image": "/images/thali.webp",
                 "correct": true
             },
             {
-                "image": "/images/boy.webp",
+                "image": "/images/thala.webp",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "question": "6. Who is more invisible?",
+        "options": [
+            {
+                "image": "/images/ghost.webp",
+                "correct": false
+            },
+            {
+                "image": "/images/john-cina.webp",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "question": "7. Who has suffered more?",
+        "options": [
+            {
+                "image": "/images/batman.webp",
+                "correct": false
+            },
+            {
+                "image": "/images/student.webp",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "question": "8. who is taller?",
+        "options": [
+            {
+                "image": "/images/messi.webp",
+                "correct": true
+            },
+            {
+                "image": "/images/ronaldo.webp",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "question": "9. GOAT?",
+        "options": [
+            {
+                "image": "/images/goat.webp",
+                "correct": true
+            },
+            {
+                "image": "/images/virat.webp",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "question": "10. What is colder?",
+        "options": [
+            {
+                "image": "/images/antarctica.webp",
+                "correct": true
+            },
+            {
+                "image": "/images/her.webp",
                 "correct": false
             }
         ]

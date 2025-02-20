@@ -8,7 +8,7 @@ type LeaderBoardEntry = {
     score: number;
 }
 
-const page = () => {
+const Page = () => {
     const [leaderboard, setLeaderboard] = useState<LeaderBoardEntry[]>([]);
     const [loading, setLoading] = useState(true);
 
@@ -44,4 +44,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page;

@@ -4,8 +4,9 @@ import { useEffect, useState } from 'react'
 import quizData from '@/data/questions.json'
 import { useUser } from '@/context/UserContext'
 import { useRouter } from 'next/navigation'
+import { useCallback } from "react";
 
-const page = () => {
+const Page = () => {
     const { name, score, setScore } = useUser();
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [isFinished, setIsFinished] = useState(false);
@@ -22,15 +23,8 @@ const page = () => {
         }, 1000);
     };
 
-    // Send score to the backend after finishing the quiz
-    useEffect(() => {
-        if (isFinished) {
-            sendScore();
-        }
-    }, [isFinished]);
 
-    const sendScore = async () => {
-        console.log("Sending score", { username: name, score })
+    const sendScore = useCallback(async () => {
         try {
             const response = await fetch("/api/leaderboard", {
                 method: "POST",
@@ -40,10 +34,17 @@ const page = () => {
             if (!response.ok) {
                 throw new Error("Failed to save score");
             }
+            router.push("/leaderboard");
         } catch (error) {
             console.error("Error in saving score: ", error);
         }
-    }
+    }, [name, score, router]);
+
+    useEffect(() => {
+        if (isFinished) {
+            sendScore();
+        }
+    }, [isFinished, sendScore]);
 
     return (
         <div className='px-3 flex flex-col justify-center items-center min-h-screen'>
@@ -72,4 +73,4 @@ const page = () => {
     )
 }
 
-export default page;
+export default Page;

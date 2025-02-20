@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-const page = () => {
+const Page = () => {
     return (
         <div className='flex flex-col items-center justify-center min-h-screen gap-4'>
             <h1 className='text-xl font-bold'>Enter Your <span className='bg-gradient-to-br from-orange-600 via-white to-green-600 bg-clip-text text-transparent'>Aadhar</span> Card No.</h1>
@@ -21,4 +21,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

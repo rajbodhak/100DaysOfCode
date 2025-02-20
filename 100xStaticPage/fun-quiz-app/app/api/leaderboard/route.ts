@@ -1,6 +1,5 @@
 import { connectToDataBase } from "@/lib/mongodb"
 import Leaderboard from "@/models/Leaderboard"
-import { error } from "console";
 import { NextRequest, NextResponse } from "next/server";
 
 //POST - Add a new score

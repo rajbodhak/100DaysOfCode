@@ -30,7 +30,7 @@ const CREATE = () => {
         }
     }
     return (
-        <div className='w-full min-h-screen bg-gradient-to-bl from-white/40 via-black/40 to-white/30 flex flex-col items-center'>
+        <div className='flex flex-col items-center py-8 px-6'>
             <h1 className='text-3xl font-bold text-center'>Create an User</h1>
             <form onSubmit={createUser} className='max-w-md mx-auto p-4 bg-black/30 backdrop-blur-md border border-white/20'>
                 <div className='mb-4'>

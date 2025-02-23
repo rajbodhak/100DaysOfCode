@@ -26,11 +26,12 @@ const GET_USERS = () => {
         fetchUsers();
     }, [])
     return (
-        <div className='w-full min-h-screen bg-gradient-to-bl from-white/40 via-black/40 to-white/30 flex flex-col items-center'>
+        <div className='w-full p-6 flex justify-center items-center flex-col'>
+            <h1 className='text-3xl font-bold text-center'>Users</h1>
             {users.map((user) => (
-                <div key={user.id} className='max-w-md border border-white/50 flex justify-between items-center text-sm font-bold text-slate-200'>
-                    <h1>{user.name}</h1>
-                    <h1>{user.email}</h1>
+                <div key={user.id} className=' border border-white/50 flex justify-between items-center text-sm font-bold text-slate-200'>
+                    <h1 className='p-4 border w-56 border-white/45'>{user.name}</h1>
+                    <h1 className='p-4 border w-80 border-white/45'>{user.email}</h1>
                 </div>
             ))}
         </div>
